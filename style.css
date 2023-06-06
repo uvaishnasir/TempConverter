@@ -1,0 +1,49 @@
+body {
+  background-image: url(/TempConverter/img2.jpg);
+  margin: 0;
+  padding: 0;
+}
+
+.temperature-converter {
+  max-width: 600px;
+  margin: 120px 300px;
+  padding: 20px;
+  background-image: linear-gradient(
+    to right,
+    #026be473,
+    rgba(247, 104, 8, 0.432)
+  );
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.temperature-converter h1 {
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-weight: bold;
+  font-size: 24px;
+  width: 120px;
+  text-align: right;
+  margin-right: 20px;
+  line-height: 32px;
+}
+
+.input-group input[type="number"] {
+  font-size: 24px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffffff;
+  flex-grow: 1;
+}
