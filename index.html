@@ -6,6 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Temperature</title>
+      <style>
+      @media (max-width: 1088px) {
+        .temperature-converter {
+          margin: 120px auto;
+          max-width: 500px;
+        }
+      }
+      @media (max-width: 570px) {
+        .input-group {
+          display: flex;
+          flex-direction: column;
+        }
+        .temperature-converter h1 {
+          font-weight: bold;
+          font-size: 26px;
+        }
+      }
+    </style>
   </head>
   <body>
     <div class="temperature-converter">
